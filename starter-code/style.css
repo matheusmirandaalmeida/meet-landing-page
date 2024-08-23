@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+    font-family: "Red Hat Display", sans-serif;
+
+    /* color */
+    --cyan600: #4D96A9;
+    --cyan300: #8FE3F9;
+
+    --purple600: #855FB1;
+    --purple300: #D9B8FF;
+
+    --slate900: #28283D;
+    --slate600: #87879D;
+    --slate300: #D1D1DF;
+
+    --whate: #FAFAFA;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+} 
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.text-content {
+    display: flex;
+    width: 25%;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.hero .text-content h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img-content {
+    height: 256px;;
+}
