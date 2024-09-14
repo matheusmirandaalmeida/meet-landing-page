@@ -43,6 +43,7 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 30px;
 }
 
 .hero {
@@ -54,11 +55,30 @@ nav {
     padding-right: 2rem;
 }
 
+.frame2{
+    display: flex;
+    width: 23.125rem;
+    height: 3.5rem;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 10.06rem;
+}
+
+.container-img-left {
+    padding-right: 30px;
+}
+
+.container-img-right {
+    padding-left: 30px;
+}
 
 .text-content {
     display: flex;
     width: 25%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -72,10 +92,13 @@ nav {
 }
 
 main {
+    display: flex;
+    height: 1440px;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
 }
 
 .container-images {
